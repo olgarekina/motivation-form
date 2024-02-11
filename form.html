@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/icon.ico" type="images/x-ico">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Форма регистрации</h1>
+
+  </div>
+
+  <form action="#" method="get">
+    <fieldset>
+      <legend>Личная информация</legend>
+      <label for="username">Введите ваше имя</label>
+      <input type="text" name="username" id="username" placeholder="Введите ваше имя" required>
+
+      <br>
+
+      <lable for="username">Введите вашу почту</lable>
+      <input type="email" name="usermail" id="usermail" placeholder="example@mail.ru">
+
+      <br>
+
+      <label for="password">Введите ваш пароль</label>
+      <input type="password" name="password" id="password">
+
+      <br>
+
+      <label for="age">Дата рождения</label>
+      <input type="date" name="age" id="age">
+
+      <br>
+
+      <label for="photo">Фото</label>
+      <input type="file" name="photo" id="photo">
+
+      <br>
+
+      <p>Ваш пол</p>
+      <label for="male">Мужской</label>
+      <input type="radio" name="Фото" id="male">
+
+      <br>
+
+      <label for=female">Женский</label>
+      <input type="radio" name="Фото" id="female">
+
+    </fieldset>
+    <fieldset>
+      <legend>Ваши навыки</legend>
+
+      <p>Ваши увлечения</p>
+      <label for=it">IT</label>
+      <input type="checkbox" name="it" id="it">
+
+      <label for=sport">SPORT</label>
+      <input type="checkbox" name="sport" id="sport">
+
+      <label for=art">ART</label>
+      <input type="checkbox" name="art" id="art">
+
+      <lable for="about">Напишите о себе</lable>
+      <textarea name="about" id="about" cols="20" rows="3"></textarea>
+
+      <label for="skills">Навыки</label>
+      <select name="skills" id="skills">
+        <option value="JS">JS</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="react">REACT</option>
+      </select>
+    </fieldset>
+
+    <button type="submit">Отправить</button>
+    <button type="reset">Очистить</button>
+  </form>
+</body>
+
+</html>

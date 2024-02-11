@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  position: relative;
+  display: flex;
+}
+
+.header video {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+
+}
+
+.content {
+  z-index: 1;
+  width: 100%;
+  color: aqua;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about {
+  padding: 15px;
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.image {
+  width: 50vw;
+}
+
+.images {
+  border: 2px solid grey;
+  margin: o auto;
+  width: 95%;
+  height: 500px;
+  box-shadow: 0 0 15px grey;
+  background: url('./images/images\ 4.jpeg') space;
+}
+
+.decoration {
+  background: url('../images/vk.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.decoration2 {
+  background: url('../images/tm.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.decoration3 {
+  background: url('../images/email.png');
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background-size: cover;
+}
